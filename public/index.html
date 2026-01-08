@@ -74,6 +74,7 @@
       </div>
       <nav class="hidden md:flex gap-8 text-sm">
         <a href="#proyecto" class="hover:opacity-100 opacity-60 transition">Proyecto</a>
+        <a href="#faq" class="hover:opacity-100 opacity-60 transition">Preguntas</a>
         <a href="#equipo" class="hover:opacity-100 opacity-60 transition">Equipo</a>
         <a href="#encuesta" class="hover:opacity-100 opacity-60 transition font-bold border-b border-slate-800">Participar</a>
       </nav>
@@ -109,17 +110,76 @@
       </div>
     </section>
 
-    <section id="proyecto" class="max-w-2xl px-6 py-16 space-y-6">
-      <p class="text-xs uppercase tracking-[0.2em] opacity-40">El Proyecto</p>
-      <h3 class="text-3xl md:text-4xl font-serif leading-tight">
-        Un testigo independiente que no miente, no olvida, no se intimida.
-      </h3>
-      <p class="text-lg leading-relaxed opacity-70">
-        Nacida desde la experiencia personal y la convicción ética, esta iniciativa propone un sistema basado en hardware de bajo costo ($13 USD) e inteligencia artificial. Un dispositivo que detecta situaciones de riesgo y alerta de forma autónoma.
-      </p>
-      <p class="text-lg leading-relaxed opacity-70">
-        Sin cámaras. Sin micrófonos. Solo sensores que protegen la privacidad mientras vigilan la seguridad.
-      </p>
+    <section id="proyecto" class="max-w-3xl px-6 py-20 mx-auto space-y-8">
+      <div class="space-y-6">
+        <p class="text-xs uppercase tracking-[0.2em] opacity-40">¿Qué es Voz de Cristal?</p>
+        <h3 class="text-4xl md:text-5xl font-serif leading-tight">
+          Un testigo independiente que el niño no tiene que activar.
+        </h3>
+      </div>
+      <div class="space-y-6 text-lg leading-relaxed opacity-80">
+        <p>
+          Creemos que los niños no deberían tener que pedir ayuda para ser protegidos. Muchas veces no pueden hacerlo: están en shock, tienen miedo, o simplemente no saben que lo que viven no es normal.
+        </p>
+        <p>
+          Por eso diseñamos un dispositivo que actúa como testigo independiente: detecta situaciones de riesgo y alerta en tiempo real, sin depender del niño ni del adulto presente.
+        </p>
+      </div>
+    </section>
+
+    <section class="max-w-4xl mx-auto px-6 py-20 border-t border-slate-200">
+      <p class="text-xs uppercase tracking-[0.2em] opacity-40 mb-12">Los 4 Pilares</p>
+      <div class="grid md:grid-cols-2 gap-16">
+        
+        <div class="space-y-3">
+          <h4 class="text-2xl font-serif">🔒 Sin cámaras ni micrófonos</h4>
+          <p class="text-base leading-relaxed opacity-70">
+            El dispositivo solo detecta patrones de riesgo. Nunca graba ni escucha. La privacidad es un derecho, no una concesión.
+          </p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-2xl font-serif">⚖️ Cierra la brecha de evidencia</h4>
+          <p class="text-base leading-relaxed opacity-70">
+            Cuando un niño habla, su palabra debe bastar. Pero cuando no puede hacerlo, necesita un testigo independiente que no pueda ser intimidado.
+          </p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-2xl font-serif">📡 Llega donde otros no llegan</h4>
+          <p class="text-base leading-relaxed opacity-70">
+            Funciona con tecnología NB-IoT, la misma que usan medidores de agua. No depende de Wi-Fi ni del teléfono de nadie.
+          </p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-2xl font-serif">💰 Costo-eficiente como política pública</h4>
+          <p class="text-base leading-relaxed opacity-70">
+            Diseñado con componentes estandarizados para que sea viable implementarlo en colegios y jardines infantiles sin comprometer presupuestos públicos.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="max-w-3xl px-6 py-20 mx-auto space-y-8 border-t border-slate-200">
+      <div class="space-y-6">
+        <p class="text-xs uppercase tracking-[0.2em] opacity-40">¿Por qué ahora?</p>
+        <h3 class="text-4xl md:text-5xl font-serif leading-tight">
+          Porque reparar cuesta más que proteger.
+        </h3>
+      </div>
+      <div class="space-y-6 text-lg leading-relaxed opacity-80">
+        <p>
+          Hoy el Estado gasta millones reparando daños que pudieron detenerse a tiempo. Terapias de por vida, juicios largos, familias destrozadas.
+        </p>
+        <p>
+          <strong>Voz de Cristal no evita que el agresor actúe la primera vez, pero corta el ciclo antes de que se vuelva crónico.</strong>
+        </p>
+        <p>
+          Tu opinión en esta encuesta nos ayuda a demostrar ante municipios y fundaciones que esta necesidad existe. Que merece ser una política pública. Que un niño no debería esperar años para ser escuchado.
+        </p>
+      </div>
     </section>
 
     <section id="encuesta" class="max-w-2xl px-6 py-16 space-y-6 border-t border-slate-200">
@@ -132,6 +192,53 @@
       </p>
       <div class="flex gap-6 pt-4">
         <a href="/encuesta" class="border-b-2 border-teal-600 pb-1 font-semibold hover:text-teal-600 transition">Ir a la Encuesta →</a>
+      </div>
+    </section>
+
+    <section class="max-w-3xl mx-auto px-6 py-20 border-t border-slate-200" id="faq">
+      <p class="text-xs uppercase tracking-[0.2em] opacity-40 mb-12">Preguntas Frecuentes</p>
+      <div class="space-y-8">
+        
+        <details class="group">
+          <summary class="text-xl font-serif cursor-pointer list-none hover:text-teal-600 transition flex justify-between items-center">
+            ¿Cómo protege si no graba ni escucha?
+            <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="mt-4 text-base leading-relaxed opacity-70 pl-4 border-l-2 border-slate-200">
+            Detecta patrones anómalos de movimiento y sonido mediante inteligencia artificial que vive dentro del dispositivo. Envía una alerta en tiempo real, sin subir audio ni video a ninguna nube.
+          </p>
+        </details>
+
+        <details class="group">
+          <summary class="text-xl font-serif cursor-pointer list-none hover:text-teal-600 transition flex justify-between items-center">
+            ¿Es realmente viable económicamente?
+            <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="mt-4 text-base leading-relaxed opacity-70 pl-4 border-l-2 border-slate-200">
+            Sí. Está diseñado con hardware de bajo costo y componentes estandarizados. La inversión es una fracción de lo que el Estado gasta en reparar el daño años después.
+          </p>
+        </details>
+
+        <details class="group">
+          <summary class="text-xl font-serif cursor-pointer list-none hover:text-teal-600 transition flex justify-between items-center">
+            ¿Por qué necesitan mi voz?
+            <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="mt-4 text-base leading-relaxed opacity-70 pl-4 border-l-2 border-slate-200">
+            Porque las instituciones nos piden evidencia de que la comunidad apoya esta solución. Tu respuesta anónima nos acerca a convertir esto en una política pública real.
+          </p>
+        </details>
+
+        <details class="group">
+          <summary class="text-xl font-serif cursor-pointer list-none hover:text-teal-600 transition flex justify-between items-center">
+            ¿Dónde puedo ver los detalles técnicos?
+            <span class="text-2xl group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="mt-4 text-base leading-relaxed opacity-70 pl-4 border-l-2 border-slate-200">
+            Tenemos un dossier completo para instituciones y potenciales socios. <a href="../docs/md/Global.md" target="_blank" class="underline hover:text-teal-600 transition">Descargar dossier técnico →</a>
+          </p>
+        </details>
+
       </div>
     </section>
 
