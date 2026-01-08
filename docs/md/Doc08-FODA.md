@@ -1,20 +1,23 @@
 <div align="justify">
 
+</div>
+
 # FODA Proyecto Voz de Cristal
 
 ## Fortalezas
 - Base ética y social genuina, motivada por experiencias reales de vulneración infantil.
 - Documentación profesional, clara y abierta, lista para ser adoptada por terceros.
-- Arquitectura pensada para privacidad, seguridad y bajo costo, adaptable a distintos contextos.
+- Arquitectura pensada para privacidad, seguridad invisible y bajo costo, adaptable a distintos contextos escolares.
 - Enfoque integral: cubre desde la filosofía, el impacto social, la arquitectura técnica y la protección legal.
 - Flexibilidad para sumar profesionales y entidades de cualquier área.
+- Narrativa pública centrada en seguridad y autonomía escolar, facilitando la aceptación institucional.
 
 ## Oportunidades
-- Interés creciente en tecnología para la protección de la infancia y derechos humanos.
+- Interés creciente en tecnología para la seguridad escolar y la autonomía infantil.
 - Posibilidad de alianzas con municipios, ONGs, empresas, universidades y cámaras sectoriales.
 - Potencial para influir en políticas públicas y marcos legales.
 - Escalabilidad y adaptabilidad a distintos países y realidades.
-- Integración con IA y análisis de datos para mejorar la detección y respuesta.
+- Integración con IA ética y análisis de datos para mejorar la detección y respuesta.
 
 ## Debilidades
 - Falta de recursos económicos para prototipado y pruebas de campo.
@@ -29,8 +32,6 @@
 - Dependencia de componentes importados y variabilidad de costos.
 
 ---
-
-</div>
 
 ## Fuentes y Referencias
 - UNICEF Chile: [Análisis de la violencia hacia niños, niñas y adolescentes](https://www.unicef.org/chile/publicaciones)

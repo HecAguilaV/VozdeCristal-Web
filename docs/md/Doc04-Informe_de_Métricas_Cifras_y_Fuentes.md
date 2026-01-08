@@ -6,14 +6,15 @@
 
 ## 1. Estadísticas Base (Chile y Global)
 
-*   **Maltrato Infantil:** Según UNICEF (2022/23), el **71%** de los niños en Chile sufre algún tipo de violencia de sus cuidadores ([UNICEF Chile](https://www.unicef.org/chile/publicaciones)).
-*   **Tasa de Inacción:** Informes de la Defensoría de la Niñez indican brechas críticas en la rapidez de las medidas cautelares tras denuncias anónimas y saturación del sistema judicial ([Defensoría de la Niñez](https://www.defensorianinez.cl/informes-anuales/)).
+- **Percepción de Seguridad:** Según encuestas, la mayoría de los padres y educadores considera útil que los útiles escolares incorporen tecnología de asistencia pedagógica y seguridad que alerte sobre situaciones de riesgo o accidentes en tiempo real.
+- **Brechas de Supervisión:** Informes institucionales evidencian la necesidad de herramientas que permitan acompañar y proteger a los niños en entornos donde la supervisión directa no es posible.
 
-## 2. Proyecciones Económicas (Investigación Web)
+## 2. Proyecciones de Implementación
 
-*   **Costo Hardware:** Basado en precios de componentes industriales (LCSC/Alibaba) en volúmenes de 10,000 unidades ([LCSC](https://www.lcsc.com/), [Alibaba](https://spanish.alibaba.com/)).
-    *   Rango: **\$8.000 - \$12.000 CLP**.
-*   **Costo de la Inacción:** El tratamiento estatal de reparación por abuso infantil crónico (salud mental + juicios) excede los **\$15.000.000 CLP** por caso ([Mejor Niñez](https://www.mejorninez.cl/transparencia.html)).
+- **Costo Hardware:** Basado en precios de componentes industriales (LCSC/Alibaba) en volúmenes de 10,000 unidades ([LCSC](https://www.lcsc.com/), [Alibaba](https://spanish.alibaba.com/)).
+- **Viabilidad Institucional:** El modelo de entrega institucional permite que el dispositivo sea parte de los kits escolares y seguros de accidentes, facilitando la aceptación y el consentimiento informado.
+
+> Los datos duros sobre maltrato y costos de reparación estatal se presentan solo en el anexo técnico para autoridades y especialistas.
 
 ---
 ## Fuentes y Referencias

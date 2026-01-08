@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Encuesta de validación social - Voz de Cristal. Tu opinión ayuda a proteger la infancia." />
+  <meta name="description" content="Estudio Voz de Cristal: seguridad, autonomía y apoyo pedagógico. Tu opinión impulsa el bienestar escolar y familiar." />
   <meta name="robots" content="noindex, nofollow" />
   <link rel="icon" type="image/png" href="./assets/img/logoVC.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,7 +15,7 @@
     h1 { font-family: 'Crimson Pro', serif; }
     .logo-text { letter-spacing: 0.15em; font-weight: 700; }
   </style>
-  <title>Encuesta - Voz de Cristal</title>
+  <title>Estudio Voz de Cristal: Seguridad y Apoyo</title>
 </head>
 <body class="bg-[#FFF5F2] text-[#1A1A1A]">
   
@@ -32,8 +32,9 @@
   <main class="pt-28 pb-12">
     <div class="max-w-4xl mx-auto px-6">
       <div class="text-center mb-8">
-        <h1 class="text-4xl md:text-5xl font-serif mb-4">Tu voz valida esta protección</h1>
-        <p class="text-lg opacity-70">Responde la encuesta anónima para ayudarnos a demostrar la necesidad de este sistema.</p>
+        <h1 class="text-4xl md:text-5xl font-serif mb-4">Estudio Nacional: Seguridad y Autonomía Escolar</h1>
+        <p class="text-lg opacity-80 mb-2">Tu experiencia y opinión ayudan a construir comunidades educativas más seguras, autónomas y acompañadas.</p>
+        <p class="text-base opacity-60">Esta encuesta es anónima y busca validar la importancia de la tecnología ética y el apoyo pedagógico en la infancia. Los resultados serán presentados a instituciones, fundaciones y autoridades educativas.</p>
       </div>
       
       <div class="bg-white rounded-lg shadow-sm overflow-hidden">
@@ -52,9 +53,19 @@
       </div>
 
       <div class="text-center mt-8">
-        <p class="text-sm opacity-60">
-          Esta encuesta es completamente anónima. Tus respuestas serán utilizadas únicamente para validación social ante instituciones y fundaciones.
+        <p class="text-sm opacity-70">
+          Gracias por ser parte de una comunidad que impulsa el bienestar y la autonomía de niños y niñas. Si representas una institución y deseas conocer los resultados, contáctanos.
         </p>
+      </div>
+
+      <!-- Card de resultados con gráfico -->
+      <div id="resultadosCard" class="mx-auto mt-12 transition-all duration-500 bg-white rounded-xl shadow-lg overflow-hidden max-w-md w-full p-4 flex flex-col items-center relative">
+        <h2 class="text-lg font-semibold mb-2">Resultados destacados</h2>
+        <div class="w-full flex justify-center">
+          <img id="graficoEncuesta" src="./assets/img/encuesta_p1_barras.svg" alt="Resultados encuesta Voz de Cristal" class="transition-all duration-500 w-full max-w-xs md:max-w-sm" style="height: 180px;" />
+        </div>
+        <button id="expandirResultados" class="mt-4 px-4 py-2 rounded bg-orange-200 text-orange-900 font-semibold text-sm shadow hover:bg-orange-300 transition">Ver más resultados</button>
+      </div>
       </div>
     </div>
   </main>
@@ -70,5 +81,6 @@
   </footer>
 
   <script src="./assets/js/encuesta.js"></script>
+</body>
 </body>
 </html>

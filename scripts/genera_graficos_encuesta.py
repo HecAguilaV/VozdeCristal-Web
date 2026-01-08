@@ -9,22 +9,22 @@ SHEET_ID = '1xZ6qSFg_YPNtlQcKapjXvwqbDTyBFZxp39BcFx1BzII'
 CSV_URL = f'https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv'
 IMG_DIR = 'public/assets/img/'
 
-# Nombres de archivos de salida
+# Nombres de archivos de salida alineados a la nueva narrativa
 ARCHIVOS = {
-    'p1_barras': 'encuesta_p1_barras.svg',
-    'p2_circular': 'encuesta_p2_circular.svg',
-    'p3_circular': 'encuesta_p3_circular.svg',
-    'p4_barras': 'encuesta_p4_barras.svg',
-    'p5_barras': 'encuesta_p5_barras.svg',
+    'p1_barras': 'encuesta_p1_barras.svg',  # Percepción de seguridad
+    'p2_circular': 'encuesta_p2_circular.svg',  # Disposición a usar la pulsera
+    'p3_barras': 'encuesta_p3_barras.svg',  # Valoración de autonomía
+    'p4_barras': 'encuesta_p4_barras.svg',  # Confianza en IA ética
+    'p5_barras': 'encuesta_p5_barras.svg',  # Prioridad de apoyo pedagógico
 }
 
-# Preguntas (índices de columna, comenzando en 0)
+# Preguntas (índices de columna, comenzando en 0, AJUSTAR según la estructura final de la encuesta)
 PREGUNTAS = {
-    'p1': 1,  # Escala 1-5
-    'p2': 2,  # Sí/No
-    'p3': 3,  # Sí/No/Solo si es recomendado
-    'p4': 4,  # Rango de precio
-    'p5': 5,  # Factor más importante
+    'p1': 1,  # ¿Considera que la pulsera contribuye a la seguridad integral de los estudiantes?
+    'p2': 2,  # ¿Estaría dispuesto/a a que su hijo/a use la pulsera en el entorno escolar?
+    'p3': 3,  # ¿Cree que la pulsera fomenta la autonomía y autoconfianza de los estudiantes?
+    'p4': 4,  # ¿Confía en el uso de IA ética para el apoyo pedagógico?
+    'p5': 5,  # ¿Qué aspecto considera más relevante del apoyo pedagógico?
 }
 
 # Colores para gráficos
@@ -56,7 +56,8 @@ def svg_barras(conteo, etiquetas, width=400, height=160, colores=COLORES):
         h = (valor / max_val) * 80 if max_val else 0
         color = colores[i % len(colores)]
         svg += f'<rect x="{x}" y="{y}" width="{bar_width}" height="{h}" fill="{color}" rx="6"/>'
-        svg += f'<text class="label" x="{x+bar_width/2}" y="{height-15}" text-anchor="middle">{key}</text>'
+        # Etiqueta rotada para el eje X
+        svg += f'<g transform="translate({x+bar_width/2},{height-10}) rotate(-35)"><text class="label" text-anchor="end">{key}</text></g>'
         svg += f'<text class="label" x="{x+bar_width/2}" y="{y-5}" text-anchor="middle">{valor}</text>'
     svg += '</svg>'
     return svg
@@ -99,33 +100,38 @@ if len(rows) <= 1:
 else:
     headers = rows[0]
     datos = rows[1:]
-    # Pregunta 1: Escala 1-5
+
+    # Pregunta 1: Percepción de seguridad integral (Escala 1-5)
     p1_vals = [row[PREGUNTAS['p1']] for row in datos if len(row) > PREGUNTAS['p1'] and row[PREGUNTAS['p1']]]
     p1_etiquetas = ['1','2','3','4','5']
     p1_conteo = {k: p1_vals.count(k) for k in p1_etiquetas}
     with open(os.path.join(IMG_DIR, ARCHIVOS['p1_barras']), 'w') as f:
         f.write(svg_barras(p1_conteo, p1_etiquetas))
-    # Pregunta 2: Sí/No
+
+    # Pregunta 2: Disposición a uso de la pulsera (Sí/No)
     p2_vals = [row[PREGUNTAS['p2']] for row in datos if len(row) > PREGUNTAS['p2'] and row[PREGUNTAS['p2']]]
     p2_etiquetas = ['Sí','No']
     p2_conteo = {k: p2_vals.count(k) for k in p2_etiquetas}
     with open(os.path.join(IMG_DIR, ARCHIVOS['p2_circular']), 'w') as f:
         f.write(svg_circular(p2_conteo, p2_etiquetas))
-    # Pregunta 3: Sí/No/Solo si es recomendado
+
+    # Pregunta 3: Valoración de autonomía (Escala 1-5)
     p3_vals = [row[PREGUNTAS['p3']] for row in datos if len(row) > PREGUNTAS['p3'] and row[PREGUNTAS['p3']]]
-    p3_etiquetas = ['Sí','No','Solo si es recomendado por un Profesional']
+    p3_etiquetas = ['1','2','3','4','5']
     p3_conteo = {k: p3_vals.count(k) for k in p3_etiquetas}
-    with open(os.path.join(IMG_DIR, ARCHIVOS['p3_circular']), 'w') as f:
-        f.write(svg_circular(p3_conteo, p3_etiquetas))
-    # Pregunta 4: Rango de precio
+    with open(os.path.join(IMG_DIR, ARCHIVOS['p3_barras']), 'w') as f:
+        f.write(svg_barras(p3_conteo, p3_etiquetas))
+
+    # Pregunta 4: Confianza en IA ética (Sí/No/No sabe)
     p4_vals = [row[PREGUNTAS['p4']] for row in datos if len(row) > PREGUNTAS['p4'] and row[PREGUNTAS['p4']]]
-    p4_etiquetas = ['Menos de $10.000','Entre $10.000 y $20.000','Más de $20.000']
+    p4_etiquetas = ['Sí','No','No sabe']
     p4_conteo = {k: p4_vals.count(k) for k in p4_etiquetas}
     with open(os.path.join(IMG_DIR, ARCHIVOS['p4_barras']), 'w') as f:
         f.write(svg_barras(p4_conteo, p4_etiquetas))
-    # Pregunta 5: Factor más importante
+
+    # Pregunta 5: Prioridad de apoyo pedagógico
     p5_vals = [row[PREGUNTAS['p5']] for row in datos if len(row) > PREGUNTAS['p5'] and row[PREGUNTAS['p5']]]
-    p5_etiquetas = ['Privacidad de Datos','Rapidez de Alerta','Validez de la Prueba Judicial']
+    p5_etiquetas = ['Acompañamiento emocional','Orientación académica','Prevención de riesgos','Otro']
     p5_conteo = {k: p5_vals.count(k) for k in p5_etiquetas}
     with open(os.path.join(IMG_DIR, ARCHIVOS['p5_barras']), 'w') as f:
         f.write(svg_barras(p5_conteo, p5_etiquetas))

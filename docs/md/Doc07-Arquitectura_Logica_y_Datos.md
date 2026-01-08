@@ -1,13 +1,13 @@
 <div align="justify">
 
-DOCUMENTO 07: ARQUITECTURA LÓGICA Y FLUJO DE DATOS
->Responsable: Héctor Aguila (Arquitectura de Solución)
+# DOCUMENTO 07: ARQUITECTURA LÓGICA Y FLUJO DE DATOS
+>Responsable: Yaneth Villegas (Dirección de Vinculación Social) y Héctor Aguila (Arquitectura de Solución)
 
 ID: VC-2026-CH-01-DOC07
 
 ## 1. Visión General del Sistema: "La Tubería Segura"
 
-A diferencia de un rastreador GPS comercial, *Voz de Cristal* no envía datos constantemente a internet. Funciona como un "submarino" que solo emerge (transmite) bajo condiciones específicas de peligro.
+A diferencia de un rastreador GPS comercial, *Voz de Cristal* no envía datos constantemente a internet. Funciona como un "submarino" que solo emerge (transmite) bajo condiciones específicas de riesgo físico o accidentes. El diseño camuflado permite que el dispositivo pase desapercibido y sea aceptado como accesorio escolar.
 
 ### Diagrama de Alto Nivel
 ```mermaid

@@ -45,8 +45,6 @@ Toda la documentación estratégica y técnica está en `docs/md/Global.md` y an
 - Yaneth Villegas — Vinculación Social
 - Héctor Águila — Arquitectura de Sistemas
 
-Repositorio: https://github.com/HecAguilaV/VozdeCristal
-
 > "No buscamos crédito personal, sino sumar capacidades para proteger a quienes más lo necesitan."
 
 
