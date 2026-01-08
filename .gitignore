@@ -30,3 +30,6 @@ yarn-error.log*
 
 # Vercel
 .vercel
+
+# PDFs (muy pesados para GitHub)
+docs/PDF/
