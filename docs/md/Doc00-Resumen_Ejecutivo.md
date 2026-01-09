@@ -25,7 +25,7 @@ Voz de Cristal plantea un dispositivo portátil, discreto y seguro, que transmit
 - Protección efectiva y no invasiva para los niños.
 - Solución costo-eficiente y accesible para instituciones y comunidades.
 
-## Invitación
+### Invitación
 El proyecto está abierto a la colaboración de instituciones, empresas, municipios, académicos y profesionales de todas las áreas. No se busca financiamiento directo ni créditos personales, sino sumar capacidades para llevar esta solución a quienes más la necesitan.
 
 ---
@@ -34,12 +34,10 @@ El proyecto está abierto a la colaboración de instituciones, empresas, municip
 
 ---
 
-<strong>Impulsoras del Proyecto:</strong><br>
-<ul>
-<li><strong>Yaneth Villegas</strong> – Dirección de Vinculación Social</li>
-<li><strong>Héctor Aguila</strong> – Arquitectura de Solución</li>
-</ul>
+**Impulsores:**
+- Yaneth – Mamá y tía
+- Héctor – Papá informático
 
-Ambos ponen a disposición de la sociedad esta base conceptual y técnica, invitando a instituciones, empresas y profesionales a sumarse para llevarla a la realidad.
+Ambos ponen a disposición de la sociedad esta base conceptual y técnica, invitando a instituciones y empresas a sumarse.
 
 </div>

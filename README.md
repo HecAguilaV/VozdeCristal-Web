@@ -7,20 +7,20 @@
 
 #### Cuando el sistema calla, la tecnología habla.
 
-Voz de Cristal es una iniciativa ciudadana y tecnológica para la protección de la infancia vulnerada. El proyecto propone un sistema de alerta y registro basado en hardware costo-eficiente, inteligencia artificial ética y estrictos estándares de privacidad, capaz de actuar como testigo independiente en situaciones de riesgo para niños y niñas.
+Voz de Cristal es una iniciativa ciudadana para la seguridad escolar, la autonomía y el apoyo pedagógico. El proyecto propone un sistema de acompañamiento basado en hardware costo-eficiente e inteligencia artificial ética, diseñado para facilitar la lateralidad y detectar emergencias escolares sin invadir la privacidad.
 
 ---
 
 ## ¿Por qué existe Voz de Cristal?
-- El 71% de los niños en Chile sufre violencia de sus cuidadores (UNICEF).
-- La mayoría de los abusos ocurre en entornos de confianza, donde los sistemas tradicionales fallan.
-- El Estado gasta millones en reparar daños que pudieron prevenirse.
+- El 85% de los padres manifiesta estrés por la seguridad de sus hijos fuera del hogar.
+- La comunidad educativa necesita herramientas para anticipar riesgos y apoyar el desarrollo integral.
+- Prevenir es mejor que reparar: buscamos validar una solución que detecte necesidades a tiempo.
 
 ## ¿Qué lo hace diferente?
-- Sin cámaras ni micrófonos: Solo detecta patrones de riesgo, nunca graba ni escucha.
-- Testigo independiente: No depende del niño ni del adulto presente.
-- Cobertura NB-IoT: Llega donde el Wi-Fi no llega.
-- Costo-eficiencia: Pensado para ser política pública, no un lujo.
+- **Privacidad Total**: Sin cámaras ni micrófonos. Detecta patrones de movimiento y signos vitales, nunca graba audio ni video.
+- **Respuesta Inmediata**: Alertas en tiempo real ante caídas, alteraciones físicas o salidas de perímetro.
+- **Cobertura NB-IoT**: Conexión constante incluso en subterráneos o donde el Wi-Fi falla.
+- **Costo-eficiencia**: Tecnología de alta gama accesible para ser un derecho, no un lujo.
 
 ## Estructura del Repositorio
 - `public/` — Sitio web estático (landing, encuesta, assets)
@@ -42,9 +42,13 @@ Toda la documentación estratégica y técnica está en `docs/md/Global.md` y an
 ---
 
 **Impulsores:**
-- Yaneth Villegas — Vinculación Social
-- Héctor Águila — Arquitectura de Sistemas
+- Yaneth — Mamá y tía
+- Héctor — Papá informático
 
-> "No buscamos crédito personal, sino sumar capacidades para proteger a quienes más lo necesitan."
+> "Impulsamos esta idea desde la convicción de que la tecnología debe ser un aliado silencioso para la paz de las familias."
+
+---
 
 
+**Héctor Aguila**	
+> Un Soñador con Poca Ram 👨🏻‍💻
