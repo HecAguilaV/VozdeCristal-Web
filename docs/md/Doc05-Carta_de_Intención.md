@@ -1,38 +1,24 @@
 
 
-
-# DOCUMENTO 05: CARTA DE INTENCIÓN UNIVERSAL
-
-# Proyecto: Voz de Cristal
-<strong>Cuando el sistema calla, la tecnología habla.</strong>
-
-**ID:** VC-2026-CH-01-DOC05
-
-**A quien corresponda:**
-
----
-
-
+# DOCUMENTO 05: CARTA ABIERTA DE INTENCIÓN
 
 <div align="justify">
 
-Por medio de la presente, las impulsoras del proyecto <strong>Voz de Cristal</strong>, Yaneth y Héctor, extienden una invitación abierta a cualquier institución, autoridad, empresa, académico o profesional que desee sumarse a la misión de proteger la autonomía y seguridad escolar de la infancia mediante tecnología ética y segura.
+**A quien corresponda:**
 
-El proyecto nace desde una motivación personal y social profunda, respaldada por datos de UNICEF y la Defensoría de la Niñez que evidencian la magnitud y urgencia de la problemática. Nuestra propuesta se fundamenta en bases técnicas, filosóficas y sociales sólidas, y está diseñada para ser adoptada, mejorada y escalada por quienes cuenten con los recursos y capacidades necesarias.
+Por medio de la presente, los impulsores del proyecto **Voz de Cristal**, Yaneth y Héctor, extienden una invitación abierta a cualquier institución, autoridad, empresa o profesional que desee sumarse a la misión de **proteger a la infancia de la vulneración silenciosa, utilizando la seguridad escolar como vehículo estratégico.**
 
-No buscamos créditos personales ni beneficios económicos; nuestro objetivo es entregar una base fundacional robusta, abierta a la colaboración y al perfeccionamiento por parte de expertos y entidades comprometidas con la protección de los más indefensos.
+Esta iniciativa nace de una motivación personal y social profunda. No buscamos créditos personales, fama ni beneficios económicos. Nuestro único objetivo es entregar una base fundacional robusta para que esta solución exista.
 
-En esta etapa, no solicitamos financiamiento directo, sino la apertura de redes técnicas, sociales, legales y académicas para validar, fortalecer y llevar a la realidad la arquitectura propuesta. Creemos que, sumando voluntades y capacidades, podemos convertir este testigo tecnológico en una herramienta efectiva y gratuita para quienes más lo necesitan.
+**Nuestra Postura:**
+Si se nos permite liderar o acompañar este proceso, nos sentiríamos profundamente honrados. Pero si nuestro rol debe limitarse a entregar la idea para que otros con más recursos la lleven a cabo, lo aceptamos con humildad. **Nos conformamos con saber que esta opción de salvar vidas existe y está operativa, sin importar quién se lleve el crédito.**
 
----
-## Fuentes y Referencias
-- UNICEF Chile: [Análisis de la violencia hacia niños, niñas y adolescentes](https://www.unicef.org/chile/publicaciones)
-- Defensoría de la Niñez: [Informes anuales](https://www.defensorianinez.cl/informe-anual-2025/)
-</div>
+En esta etapa, no solicitamos financiamiento, sino la apertura de redes técnicas, sociales y legales para validar y fortalecer la arquitectura propuesta. Creemos que, sumando voluntades, podemos convertir este testigo tecnológico en una realidad para quienes más lo necesitan.
 
 ---
 
 **Firmado:**
 
-*   **Yaneth Villegas** - Dirección de Vinculación Social
-*   **Héctor Aguila** - Arquitectura de Solución
+*   **Yaneth Villegas** - Impulsora
+*   **Héctor Águila** - Impulsor
+</div>

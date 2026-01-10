@@ -1,9 +1,8 @@
+# DOCUMENTO 07: ARQUITECTURA LÓGICA Y FLUJO DE DATOS
+
 <div align="justify">
 
-# DOCUMENTO 07: ARQUITECTURA LÓGICA Y FLUJO DE DATOS
->Responsable: Yaneth Villegas (Dirección de Vinculación Social) y Héctor Aguila (Arquitectura de Solución)
-
-ID: VC-2026-CH-01-DOC07
+**Impulsores:** Yaneth Villegas y Héctor Aguila
 
 ## 1. Visión General del Sistema: "La Tubería Segura"
 
@@ -27,6 +26,7 @@ flowchart LR
 El dispositivo es "Silencioso por Defecto".
 - **Estado Normal (Heartbeat):** Cada 60-120 minutos envía un paquete minúsculo (< 50 bytes) solo para decir "Tengo batería y estoy aquí".
 - **Estado de Alerta (Panic Mode):** Se activa solo cuando el algoritmo local (TinyML en el MCU) detecta la coincidencia de dos factores.
+    - **Acción Crítica:** Despierta el micrófono por una ventana estricta (ej. 15 segundos) para capturar evidencia ambiental (gritos/amenazas). NO transmite en vivo, sino que empaqueta y encripta para envío asíncrono.
 
 ### Lógica de Disparo (Trigger)
 $$ Trigger = (HR > Umbral_{Edad}) + (GForce > Umbral_{Golpe}) $$
@@ -49,7 +49,7 @@ La nube actúa como notario y despachador.
 2.  **Motor de Reglas (Stream Analytics):**
     - Si llega un *Heartbeat*: Registra estado de batería.
     - Si llega una *Alerta*:
-        1.  Inicia grabación de audio remota (si el ancho de banda lo permite).
+        1.  Procesa la "Ráfaga de Audio" como evidencia forense encriptada.
         2.  Calcula geolocalización por triangulación de celdas (Cell-ID) + GPS (si hay vista al cielo).
         3.  Ejecuta el **Protocolo de Impacto Social (Doc03)**.
 3.  **Almacenamiento (Cold Storage):**
@@ -57,11 +57,11 @@ La nube actúa como notario y despachador.
 
 ## 5. Diseño de Privacidad de Datos
 
-| Tipo de Dato             | Encriptación          | Acceso                                          |
-| :----------------------- | :-------------------- | :---------------------------------------------- |
-| **Identidad del Niño**   | Hash SHA-256          | Solo con orden judicial                         |
-| **Biometría (HR/Pasos)** | Anónimo               | Análisis agregado para salud                    |
-| **Audio de Evento**      | AES-256 (Llave Doble) | Requiere llave del Serviod y llave de Autoridad |
+| Tipo de Dato             | Encriptación          | Acceso                                              |
+| :----------------------- | :-------------------- | :-------------------------------------------------- |
+| **Identidad del Niño**   | Hash SHA-256          | Solo con orden judicial                             |
+| **Biometría (HR/Pasos)** | Anónimo               | Análisis agregado para salud                        |
+| **Evidencia (Audio)**    | AES-256 (Llave Doble) | Custodia Digital (Requiere llave Fiscal + Servidor) |
 
 ## 6. Integración (API)
 

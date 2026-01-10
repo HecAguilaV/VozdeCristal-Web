@@ -1,26 +1,34 @@
+# DOCUMENTO 04: INFORME PRELIMINAR DE MÉTRICAS Y VIABILIDAD
+
 <div align="justify">
 
-# DOCUMENTO 04: INFORME DE MÉTRICAS Y FUENTES
+**Impulsores:** Yaneth Villegas y Héctor Aguila
 
-**ID:** VC-2026-CH-01-DOC04
+> **Nota:** Este informe se basa en proyecciones de mercado (2024-2025) y referencias técnicas industriales. Las cifras definitivas se ajustarán en la etapa de prototipado.
 
-## 1. Estadísticas Base (Chile y Global)
+## 1. Validación Social y Necesidad
 
-- **Percepción de Seguridad:** Según encuestas, la mayoría de los padres y educadores considera útil que los útiles escolares incorporen tecnología de asistencia pedagógica y seguridad que alerte sobre situaciones de riesgo o accidentes en tiempo real.
-- **Brechas de Supervisión:** Informes institucionales evidencian la necesidad de herramientas que permitan acompañar y proteger a los niños en entornos donde la supervisión directa no es posible.
+- **Percepción de Seguridad:** Existe un consenso en la comunidad sobre la utilidad de incorporar tecnología asistencial en los útiles escolares para alertar situaciones de riesgo.
+- **Brechas de Supervisión:** La evidencia institucional apunta a la urgencia de herramientas que acompañen a los niños cuando la supervisión directa no es posible.
 
-## 2. Proyecciones de Implementación
+## 2. Viabilidad Económica (Proyección)
 
-- **Costo Hardware:** Basado en precios de componentes industriales (LCSC/Alibaba) en volúmenes de 10,000 unidades ([LCSC](https://www.lcsc.com/), [Alibaba](https://spanish.alibaba.com/)).
-- **Viabilidad Institucional:** El modelo de entrega institucional permite que el dispositivo sea parte de los kits escolares y seguros de accidentes, facilitando la aceptación y el consentimiento informado.
+- **Hardware:** Estimaciones basadas en componentes industriales estándar (NB-IoT/LTE-M) disponibles en proveedores globales como LCSC o Alibaba, optimizados para volumen.
+- **Modelo Institucional:** La entrega como "kit escolar" facilita la economía de escala y asegura que la protección sea un derecho accesible, no un lujo de mercado.
+
+## 3. Rentabilidad Social y Ahorro Estatal
+
+Si bien no podemos evitar el primer acto de vulneración, Voz de Cristal permite **detener la cronicidadd** del abuso.
+- **Costo de Reparación (Actual):** Un niño vulnerado crónicamente implica un gasto estatal enorme y prolongado: juicios, abogados, equipos multidisciplinarios, residencias y terapias de por vida.
+- **Costo de Prevención (Propuesta):** La detección temprana mediante evidencia contundente (datos biométricos) corta el ciclo de abuso, reduciendo drásticamente el daño humano y la carga financiera del Estado.
+*Invertir en tecnología de detección es infinitamente más barato que financiar décadas de reparación.*
 
 > Los datos duros sobre maltrato y costos de reparación estatal se presentan solo en el anexo técnico para autoridades y especialistas.
 
 ---
 ## Fuentes y Referencias
 - UNICEF Chile: [Análisis de la violencia hacia niños, niñas y adolescentes](https://www.unicef.org/chile/publicaciones)
-- Defensoría de la Niñez: [Informes anuales](https://www.defensorianinez.cl/informes-anuales/)
+- Defensoría de la Niñez: [Informes anuales](https://www.defensorianinez.cl/informe-anual-/)
 - LCSC Electronics: [SIM7080G](https://www.lcsc.com/)
 - Alibaba: [Costos de componentes](https://spanish.alibaba.com/)
-- Mejor Niñez: [Presupuestos y programas](https://www.mejorninez.cl/transparencia.html)
 </div>

@@ -1,11 +1,13 @@
+# DOCUMENTO 06: FICHA TÉCNICA DE COMPONENTES (PROPUESTA MVP)
+
 <div align="justify">
 
 
-# DOCUMENTO 06: FICHA DE COMPONENTES (MVP)
+**Impulsores:** Yaneth Villegas y Héctor Aguila
 
-**Proyecto:** Voz de Cristal
-**ID:** VC-2026-CH-BOM-01
 **Objetivo:** Prototipado de hardware costo-eficiente, accesible, de alta penetración de señal y bajo consumo, con diseño camuflado y uso pedagógico.
+
+> **Nota:** Esta selección de componentes es una propuesta teórica.
 
 ## 1. Unidad de Procesamiento y Comunicación (El Corazón)
 
@@ -37,8 +39,10 @@
 
 ## 4. Interfaz y Alerta (La Salida)
 
-- **Micrófono:** MEMS SPH0645LM4H (Audio Hi-Fi, tamaño minúsculo).
 - **Antena:** FPC integrada al chasis.
+- **Micrófono:** MEMS (Activación exclusiva por evento crítico).
+
+> **Nota de Privacidad y Legalidad:** El micrófono NO es para escucha activa. Se propone su activación técnica **solo durante los segundos de la emergencia** (alerta biométrica confirmada) para capturar "ráfagas de audio" que sirvan como evidencia judicial del contexto (gritos, amenazas). Esta funcionalidad debe ser validada legalmente.
 
 ## Sostenibilidad y Comparativa Social
 El diseño costo-eficiente, camuflado y accesible permite la implementación masiva sin comprometer presupuestos públicos y facilita la aceptación institucional como herramienta pedagógica de seguridad.

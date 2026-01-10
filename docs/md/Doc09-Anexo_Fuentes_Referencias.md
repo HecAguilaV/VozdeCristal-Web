@@ -1,8 +1,10 @@
+# DOCUMENTO 09: COMPENDIO DE REFERENCIAS Y FUENTES
+
 <div align="justify">
 
+**Impulsores:** Yaneth Villegas y Héctor Aguila
 
-# DOCUMENTO 09: ANEXO DE FUENTES Y REFERENCIAS TÉCNICAS
-**ID:** VC-2026-CH-01-ANEXO-01
+> **Nota del Equipo Impulsor:** Este compendio reúne las bases teóricas y técnicas que inspiraron el desarrollo conceptual de Voz de Cristal. Invitamos a la comunidad académica, legal y técnica a profundizar, validar y ampliar este anexo para robustecer la implementación final.
 
 ## 1. Fuentes públicas sobre seguridad y tecnología
 Estas fuentes respaldan la viabilidad técnica y social del proyecto como herramienta de seguridad y autonomía escolar.
@@ -28,7 +30,6 @@ Estas fuentes validan el uso de NB-IoT y la viabilidad económica del dispositiv
 ## 3. Fuentes privadas para presentaciones institucionales
 Los datos duros sobre maltrato, brechas judiciales y costos de reparación estatal se presentan solo en reuniones privadas y dossier técnico para autoridades y especialistas.
 
-- **Subsecretaría de la Niñez / Mejor Niñez:**
-  - [Transparencia y presupuestos](https://www.mejorninez.cl/transparencia.html)
+
 
 </div>

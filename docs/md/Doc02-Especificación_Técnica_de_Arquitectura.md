@@ -1,9 +1,8 @@
+# DOCUMENTO 02: ARQUITECTURA TÉCNICA PROPUESTA
+
 <div align="justify">
 
-# DOCUMENTO 02: ESPECIFICACIÓN TÉCNICA DE ARQUITECTURA
-
-**Responsable:** Yaneth Villegas (Dirección de Vinculación Social) y Héctor Aguila (Arquitectura de Solución)
-**ID:** VC-2026-CH-01-DOC02
+**Impulsores:** Yaneth Villegas y Héctor Aguila
 
 ## 1. Hardware (The Edge)
 

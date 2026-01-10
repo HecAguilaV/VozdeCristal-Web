@@ -1,16 +1,14 @@
+# DOCUMENTO 08: ANÁLISIS FODA (ESTRATÉGICO)
+
 <div align="justify">
 
-</div>
-
-# FODA Proyecto Voz de Cristal
+**Impulsores:** Yaneth Villegas y Héctor Aguila
 
 ## Fortalezas
-- Base ética y social genuina, motivada por experiencias reales de vulneración infantil.
-- Documentación profesional, clara y abierta, lista para ser adoptada por terceros.
-- Arquitectura pensada para privacidad, seguridad invisible y bajo costo, adaptable a distintos contextos escolares.
-- Enfoque integral: cubre desde la filosofía, el impacto social, la arquitectura técnica y la protección legal.
-- Flexibilidad para sumar profesionales y entidades de cualquier área.
-- Narrativa pública centrada en seguridad y autonomía escolar, facilitando la aceptación institucional.
+- **Estrategia Caballo de Troya:** Narrativa pública de seguridad escolar que protege la función real de detección, evitando el bloqueo por parte de agresores.
+- **Base ética genuina:** Motivada por experiencias reales ("Génesis"), lo que blinda moralmente el proyecto.
+- **Arquitectura "Silenciosa por Defecto":** Privacidad total que facilita la aceptación legal y social.
+- **Documentación Abierta:** Estructura lista para ser transferida a entidades con capacidad de ejecución (Desapego del ego).
 
 ## Oportunidades
 - Interés creciente en tecnología para la seguridad escolar y la autonomía infantil.
@@ -19,17 +17,17 @@
 - Escalabilidad y adaptabilidad a distintos países y realidades.
 - Integración con IA ética y análisis de datos para mejorar la detección y respuesta.
 
-## Debilidades
-- Falta de recursos económicos para prototipado y pruebas de campo.
-- Necesidad de sumar expertos en legal, IA, hardware y gestión social para llevar el proyecto a la realidad.
-- Riesgo de que la idea quede solo en propuesta si no se logra adopción institucional.
-- Poca información sobre validación técnica y operativa en terreno.
+## Debilidades (El Llamado a la Acción)
+- **Recursos para Prototipado:** Carecemos del capital para fabricar el primer lote de 10,000 unidades (economía de escala).
+- **Equipo Multidisciplinario:** Se requiere validar legalmente el protocolo de "Evidencia de Audio" y ajustar el hardware con ingenieros expertos.
+- **Dependencia Institucional:** Sin un "Partner" (Estado/ONG/Empresa), la idea no puede escalar.
 
 ## Amenazas
-- Burocracia y lentitud institucional para adoptar nuevas soluciones.
-- Resistencia al cambio en sistemas de protección tradicionales.
-- Posibles cuestionamientos éticos o legales sobre el uso de tecnología en menores.
-- Dependencia de componentes importados y variabilidad de costos.
+- **Exposición Mediática Sensacionalista:** Riesgo de que la prensa "destape" el verdadero potencial del proyecto, alertando masivamente a los agresores y destruyendo el camuflaje estratégico.
+- **Resistencia al "Caballo de Troya":** Riesgo de que ciertos sectores cuestionen la ética de la "doble narrativa" (mitigado por el Protocolo Social).
+- **Ingeniería Inversa:** Que los agresores descubran la función real del dispositivo (mitigado por el diseño de hardware camuflado).
+- **Replicación No Ética:** Riesgo de que terceros copien la tecnología para fines de espionaje o control parental tóxico, manchando la reputación de la herramienta ("Por uno pagan todos").
+- **Burocracia Estatal:** Tiempos de adopción más lentos que la urgencia de los niños vulnerados.
 
 ---
 
