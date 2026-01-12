@@ -48,7 +48,7 @@ Toda la documentación estratégica y técnica está en `docs/md/Global.md` y an
 > "Impulsamos esta idea desde la convicción de que la tecnología debe ser un aliado silencioso para la paz de las familias."
 
 ---
+© 2026 Voz de Cristal - Iniciativa Ciudadana de Protección Infantil.
 
-
-**Héctor Aguila**	
-> Un Soñador con Poca Ram 👨🏻‍💻
+> **Héctor Aguila**  
+> *Un Soñador con Poca rIAm* 👨🏻‍💻
