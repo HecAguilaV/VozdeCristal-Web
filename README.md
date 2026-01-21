@@ -42,8 +42,8 @@ Toda la documentación estratégica y técnica está en `docs/md/Global.md` y an
 ---
 
 **Impulsores:**
-- Yaneth — Mamá y tía
-- Héctor — Papá informático
+- Una Mamá y tía
+- Un Papá informático
 
 > "Impulsamos esta idea desde la convicción de que la tecnología debe ser un aliado silencioso para la paz de las familias."
 
